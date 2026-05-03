@@ -104,7 +104,7 @@ Python, SQL, API integrations, data analysis libraries, and dashboard technologi
 
 The system is best suited for digital, SaaS, e-commerce, and data-driven commercial environments.
 
-It alså fits more specialized industries (e.g. healthcare, manufacturing, logistics) 
+It also fits more specialized industries (e.g. healthcare, manufacturing, logistics) 
 
 ---
 
