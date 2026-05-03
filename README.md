@@ -39,6 +39,9 @@ This project focuses on:
 ## Screenshots
 
 <img width="1896" height="847" alt="image" src="https://github.com/user-attachments/assets/b41adf56-06ea-4c4e-9674-749cd6a9968a" />
+<img width="1902" height="861" alt="image" src="https://github.com/user-attachments/assets/95c9a421-1d84-411e-9821-9d138f156f31" />
+<img width="1887" height="864" alt="image" src="https://github.com/user-attachments/assets/c1763d85-e22f-49f7-b70a-51ef6d5f5096" />
+<img width="1874" height="856" alt="image" src="https://github.com/user-attachments/assets/6de2460f-eb3b-4fc2-89d7-aef1af5704ea" />
 
 
 ---
