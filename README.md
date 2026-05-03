@@ -2,10 +2,9 @@
 
 ## Overview
 
- Analyst OS is an analytics and decision-support system designed to automate data analysis across web, e-commerce, digital marketing, and data-driven business environments.
+Analyst OS is an analytics and decision-support system designed to automate data analysis across web, e-commerce, digital marketing, SaaS, and other data-driven business environments.
 
-
-The goal is to reduce manual analysis work and help teams quickly understand what is happening in their data, why it is happening, and what actions to take next.
+The goal is to reduce manual analysis work and help teams quickly understand what is happening in their data, tp find opportunities, why it is happening, and what actions to take next.
 
 ---
 
@@ -15,9 +14,9 @@ Many teams spend significant time manually:
 - Tracking KPIs across multiple tools  
 - Analyzing funnels and conversion issues  
 - Investigating performance drops  
-- Connecting marketing performance to business results  
+- Connecting data across marketing, sales, product, and operations  
 
-This often leads to slow decisions and missed opportunities.
+This often leads to slow decisions, missed opportunities, and unclear priorities.
 
 ---
 
@@ -25,9 +24,9 @@ This often leads to slow decisions and missed opportunities.
 
 Analyst OS automates these processes by:
 
-- Collecting and structuring data from multiple sources  
-- Running automated analysis on KPIs, funnels, and performance  
-- Detecting anomalies, risks, and growth opportunities  
+- Structuring data from multiple sources  
+- Running automated analysis on performance, funnels, and business metrics  
+- Detecting anomalies, bottlenecks, and growth opportunities  
 - Generating clear insights and recommended actions  
 
 ---
@@ -35,81 +34,47 @@ Analyst OS automates these processes by:
 ## Key Features
 
 - KPI monitoring and automated insights  
-- Funnel analysis (drop-off and bottleneck detection)  
+- Funnel analysis and bottleneck detection  
 - Anomaly detection and alert system  
-- Campaign performance analysis (Google Ads / Meta Ads)  
-- Cross-source analysis (analytics, ads, e-commerce)  
+- Campaign and performance analysis  
+- CRM pipeline and lead analysis  
+- Product engagement and retention signals  
+- Support and operational insights  
+- Cross-source analysis across multiple business areas  
 - AI-supported explanations and recommendations  
+
+## Advanced Analysis Layer (BigQuery & Automation)
+
+Analyst OS is designed to work with large-scale data environments such as BigQuery and modern data warehouses.
+
+Instead of relying on repetitive manual SQL workflows, the system uses structured query templates and automated analysis logic to:
+
+- Standardize common analysis tasks (KPIs, funnels, performance breakdowns)
+- Reduce repetitive querying and manual data extraction
+- Enable faster insights without rebuilding queries from scratch
+- Support scalable analysis across large datasets
+
+This allows analysts to focus more on interpretation and decision-making, while still having the flexibility to customize queries and logic when needed.
 
 ---
 
 ## Example Use Cases
 
-- Identify conversion bottlenecks in e-commerce funnels  
-- Detect sudden drops in traffic or revenue  
-- Connect ad spend to conversion performance  
-- Highlight areas with the highest optimization potential  
+- Identify conversion bottlenecks in funnels  
+- Detect drops in traffic, revenue, or engagement  
+- Connect marketing performance to business outcomes  
+- Track pipeline performance and lead quality  
+- Monitor retention and product usage  
+- Identify recurring support issues  
 
 ---
 
-## Impact (Example Outcomes)
+## Impact
 
 - Reduced manual analysis time  
 - Faster identification of issues and opportunities  
-- Improved decision-making based on structured insights  
-- Clearer connection between marketing and business performance  
-
----
-
-## System Scope
-
-The system focuses on:
-
-- Web analytics  
-- E-commerce performance  
-- Marketing performance  
-- Automated reporting and insights  
-
-
-## Where It Can Be Used
-
-Analyst OS is designed to be flexible and can be applied across many data-driven environments. It is especially relevant for roles and teams working with analytics, reporting, business performance, growth, customer behavior, and operational insights.
-
-It can be useful for:
-
-**Data Analysts and Business Analysts**  
-  KPI reporting, trend analysis, anomaly detection, business performance tracking, data quality checks, and automated insight generation.
-**Digital Analysts and Web Analysts**  
-  Website traffic, conversion funnels, engagement, SEO/SEM performance, campaign impact, tracking quality, and customer journey analysis.
-**Growth Analysts and Marketing Teams**  
-  Growth signals, paid media performance, budget pacing, lead generation, conversion rate optimization, retention, and weekly performance recommendations.
-**E-commerce Teams and Marketplaces**  
-  Revenue, orders, transactions, product performance, conversion rate, AOV, customer behavior, campaign performance, and business-critical alerts.
-**B2B SaaS and Subscription-Based Companies**  
-  MRR-style reporting, retention, churn signals, product engagement, customer support signals, CRM pipeline, and subscription health.
-**Sales-Driven Businesses**  
-  CRM pipeline tracking, lead conversion, deal analysis, won/lost opportunities, pipeline value, and sales performance trends.
-**Customer Support and Customer Success Teams**  
-  Ticket volume, issue patterns, support load, response and resolution signals, customer satisfaction indicators, and recurring problem areas.
-**Finance and Operations Teams**  
-  Revenue, costs, cash flow, invoices, overdue payments, income/expense breakdowns, period comparisons, and operational risk signals.
-**Product-Led Companies**  
-  User engagement, retention, DAU/MAU, product usage, onboarding signals, feature adoption, and behavioral trends.
-**Agencies and Consulting Teams**  
-  Client reporting, automated dashboards, campaign summaries, performance monitoring, and reusable reporting workflows across different clients.
-**Healthcare and Clinics**  
-  Potential use cases include appointment trends, patient flow, booking/no-show analysis, operational reporting, support requests, and finance insights. This would require careful handling of privacy, access control, and sensitive data.
-**Dental Clinics and Local Healthcare Providers**  
-  Useful for analyzing bookings, cancellations, patient volume, revenue, treatment demand, marketing performance, and operational bottlenecks.
-**Public Sector and Government Organizations**  
-  Could support internal reporting, service usage, case volumes, citizen support trends, operational dashboards, and data quality monitoring. For organizations such as tax agencies or public services, stronger compliance, security, and audit controls would be required.
-**Labs, Research, and Testing Environments**  
-  Can be adapted for monitoring sample volumes, process status, turnaround times, reporting consistency, operational workload, and quality signals.
-**Real Estate, Hospitality, Logistics, Education, Legal, and Accounting Firms**  
-  These industries can benefit from dashboards, alerts, reporting, finance tracking, CRM analysis, and operational insights, especially when connected through custom tools, spreadsheets, APIs, or warehouse data.
-
-The system is not limited to one industry. Its strongest current fit is for digital, commercial, SaaS, e-commerce, sales, support, finance, and operations-focused teams. More specialized sectors such as healthcare, government, manufacturing, logistics, and education would require additional domain-specific connectors, KPI models, compliance rules, and reporting templates.
-
+- Improved data-driven decision-making  
+- Better alignment between data and business performance  
 
 ---
 
@@ -131,10 +96,18 @@ The system is not limited to one industry. Its strongest current fit is for digi
 
 ## Tech (Simplified)
 
-Python, SQL, data analysis libraries, and modern dashboard technologies.
+Python, SQL, API integrations, data analysis libraries, and dashboard technologies.
+
+---
+
+## Industry Fit
+
+The system is best suited for digital, SaaS, e-commerce, and data-driven commercial environments.
+
+It alså fits more specialized industries (e.g. healthcare, manufacturing, logistics) 
 
 ---
 
 ## Status
 
-This project is actively being developed, with ongoing improvements.
+This project is actively being developed and continuously improved.
